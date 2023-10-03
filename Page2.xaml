@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VarlamovPrr4.Page2"
+             Title="Программа ручной рассчёт">
+    <StackLayout
+        Padding="5">
+        <Label Text="Марка автомобиля:"/>
+        <Label Text="Пежо"
+               x:Name="x1"/>
+        <Label Text="Лада"
+               x:Name="x2"/>
+        <Label Text="Рено"
+               x:Name="x3"/>
+        <Label Text="Нива"
+               x:Name="x4"/>
+        <Label Text="Форд"
+               x:Name="x5"/>
+        <Label Text="Вольво"
+               x:Name="x6"/>
+        <Label Text="БМВ"
+               x:Name="x7"/>
+        <Label Text="Мерседес"
+               x:Name="x8"/>
+        <Entry x:Name="marka"
+               IsEnabled="True"/>
+        <Button Clicked="Button_Clicked"
+                Text="Рассчитать"/>
+    </StackLayout>
+</ContentPage>

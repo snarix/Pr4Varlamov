@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VarlamovPrr4.Page1"
+             Title="Программа автоматический рассчёт">
+    <StackLayout>
+        <Label Text="Выберите марку машины"/>
+        <RadioButton Content="Пежо"
+                     CheckedChanged="RadioButton_CheckedChanged"
+                     x:Name="x1"/>
+        <RadioButton Content="Лада"
+                     CheckedChanged="RadioButton_CheckedChanged_1"
+                     x:Name="x2"/>
+        <RadioButton Content="Рено"
+                     CheckedChanged="RadioButton_CheckedChanged_2"
+                     x:Name="x3"/>
+        <RadioButton Content="Нива"
+                     CheckedChanged="RadioButton_CheckedChanged_3"
+                     x:Name="x4"/>
+        <RadioButton Content="Форд"
+                     CheckedChanged="RadioButton_CheckedChanged_4"
+                     x:Name="x5"/>
+        <RadioButton Content="Вольво"
+                     CheckedChanged="RadioButton_CheckedChanged_5"
+                     x:Name="x6"/>
+        <RadioButton Content="БМВ"
+                     CheckedChanged="RadioButton_CheckedChanged_6"
+                     x:Name="x7"/>
+        <RadioButton Content="Мерседес"
+                     CheckedChanged="RadioButton_CheckedChanged_7"
+                     x:Name="x8"/>
+    </StackLayout>
+</ContentPage>
